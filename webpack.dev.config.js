@@ -17,7 +17,7 @@ const config = {
         loader: 'style!css!postcss!sass'
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|jpe?g|gif|png)$/,
+        test: /\.(eot|svg|ttf|woff|woff2|jpe?g|gif|png|obj|mat|mtl)$/,
         loader: 'file?name=[path][name].[ext]?[hash]'
       }
     ]
