@@ -1,0 +1,10 @@
+{
+  "data": [
+    {"id": "1", "slug": "one-wat", "title": "One", "categories": "wat", "content": "blahblah one ipsum"},
+    {"id": "2", "slug": "two-wat", "title": "Two", "categories": "wat", "content": "blahblah two ipsum"},
+    {"id": "3", "slug": "three-wat", "title": "Three", "categories": "wat", "content": "blahblah three ipsum"},
+    {"id": "4", "slug": "four-wat", "title": "Four", "categories": "wat", "content": "blahblah four ipsum"},
+    {"id": "5", "slug": "five-wat", "title": "Five", "categories": "wat", "content": "blahblah five ipsum"},
+    {"id": "6", "slug": "six-wat", "title": "Six", "categories": "wat", "content": "blahblah six ipsum"}
+  ]
+}

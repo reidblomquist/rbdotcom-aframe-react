@@ -1,0 +1,71 @@
+.Chart
+  width: 100%
+  position: absolute
+  top: 0
+  bottom: 0
+  overflow: hidden
+  background: #eeeeee
+  z-index: 1
+  margin: 54px 0 0 0
+
+
+.container-svg
+  width: 100%
+  height: 100%
+
+.circle, .root-image
+  cursor: pointer
+
+.circle
+  &.animation
+    pointer-events: none
+
+  &.zoom-fill
+    fill: rgba(0,0,0,0)
+
+  &.zoomed
+    stroke-width: 2px
+    &.zoom-fill
+      fill: $lt-grey
+    &.v1
+      stroke: $v1
+    &.v2
+      stroke: $v2
+    &.v3
+      stroke: $v3
+    &.v4
+      stroke: $v4
+    &.v5
+      stroke: $v5
+    &.v6
+      stroke: $v6
+
+  // pon here we gonna do the gradient thing on that there middle circle on hover also when zoomed
+  &[initial_fill='GG']
+    fill: $GG
+
+  &[hover_fill='GO']:hover
+    fill: $GO
+
+  &.zoomed, [hover_fill='GO']
+    fill: $GO
+
+.root-image
+  pointer-events: none
+
+
+.line-cluster
+  stroke-width: 2px
+  &.v1
+    stroke: $v1
+  &.v2
+    stroke: $v2
+  &.v3
+    stroke: $v3
+  &.v4
+    stroke: $v4
+  &.v5
+    stroke: $v5
+  &.v6
+    stroke: $v6
+
